@@ -1,0 +1,56 @@
+arreglo[8] de entero cifra
+arreglo[8] de cadena[10] cifra1
+arreglo[8] de caracter cifra2
+arreglo[8] de real cifra3
+entero n
+caracter resp
+inicio
+llamar color_texto(11)
+Escriba "Ingrese numeros para almacenarlos"
+llamar nueva_linea
+	Repita 
+		Escriba "Digite numeros de tipo entero"
+		llamar nueva_linea
+			Para n<-1 hasta 2 haga
+				llamar nueva_linea
+				lea cifra[n]
+			fin para
+				Para n<-1 hasta 2 haga
+					llamar nueva_linea
+					Escriba "Sus datos ingresados de tipo entero fueron: ",cifra[n]
+				Fin para
+				llamar nueva_linea
+				Escriba "Digite datos de tipo cadena"
+					Para n<-1 hasta 2 haga
+						llamar nueva_linea
+						lea cifra1[n]
+					Fin para
+						Para n<-1 hasta 2 haga
+							llamar nueva_linea
+							Escriba "Sus datos ingresados de tipo cadena fueron: ",cifra1[n]
+						Fin para
+						llamar nueva_linea
+						Escriba "Digite datos de tipo caracter"
+							Para n<-1 hasta 2 haga
+								llamar nueva_linea
+								lea cifra2[n]
+							Fin para
+								Para n<-1 hasta 2 haga
+									llamar nueva_linea
+									Escriba "Sus datos ingresados de tipo caracter fueron: ",cifra2[n]
+								Fin para
+								llamar nueva_linea
+								Escriba "Digite datos de tipo real"
+									Para n<-1 hasta 2 haga
+										llamar nueva_linea
+										lea cifra3[n]
+									Fin para
+										Para n<-1 hasta 2 haga
+											llamar nueva_linea
+											Escriba "Sus datos ingresados de tipo real fueron: ",cifra3[n]
+										Fin para
+		llamar nueva_linea
+		Escriba "Desea continuar? S/N"
+		lea resp
+		hasta (resp='N') o (resp='n')
+fin 

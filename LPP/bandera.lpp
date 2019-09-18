@@ -1,0 +1,20 @@
+Entero numero, suma_serie
+cadena[2] bandera
+inicio
+
+	numero<-1
+	suma_serie<-0
+	bandera<-" T "
+		mientras numero<7 haga
+			suma_serie<-suma_serie+numero
+			Escriba numero, " "
+				Si bandera= "T" entonces
+					numero<-numero+3
+					bandera<-"F"
+				sino
+					numero<-numero+2
+					bandera<-"T"
+				fin si
+		Fin mientras
+	Escriba suma_serie
+fin

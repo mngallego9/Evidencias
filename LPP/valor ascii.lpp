@@ -1,0 +1,8 @@
+entero n
+caracter x
+inicio
+	llamar color_texto(11)
+	x<-'@'
+	n<-valor_ascii(x)
+	Escriba "El caracter ascii de ",x, " es: ",n
+fin

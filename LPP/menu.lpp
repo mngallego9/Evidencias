@@ -1,0 +1,70 @@
+Entero numero1,numeroa,numerob,suma,resta,p
+cadena[2]c
+Caracter i
+Real numero2
+Inicio
+llamar color_texto(11)
+	Escriba "Ingrese un numero entero"
+	lea numero1
+	llamar nueva_linea
+		mientras (numero1<>123) haga
+			Escriba "Intente de nuevo"
+			lea numero1
+		fin mientras
+		Escriba "Requisito exitoso"
+	llamar nueva_linea
+	Escriba "Ingrese una cadena de caracteres"
+	lea c
+	llamar nueva_linea
+		Si (c="c") entonces
+			Escriba "Ingrese el primer numero a sumar"
+			llamar nueva_linea
+			lea numeroa
+			Escriba "Ingrese el segundo numero a sumar"
+			llamar nueva_linea
+			lea numerob
+			llamar nueva_linea
+			suma<-numeroa+numerob
+			Escriba "La suma es: ",suma
+		Sino 
+			Escriba "Ingrese el primer numero a restar"
+			llamar nueva_linea
+			lea numeroa
+			Escriba "Ingrese el segundo numero a restar"
+			llamar nueva_linea
+			lea numerob
+			llamar nueva_linea
+			rest<-numeroa-numerob
+			Escriba "La resta es: ",restaa
+		Fin si
+		llamar nueva_linea
+		Escriba "Ingrese un caracter"
+		lea i
+		llamar nueva_linea
+			Si (i='p') entonces
+				suma<-1
+				p<-0
+				Para p<-1 hasta 10 haga
+					suma<-p+suma
+					llamar nueva_linea
+					escriba p
+				Fin para
+				llamar nueva_linea
+				Escriba "La suma de los numeros es: ",suma
+			Sino
+			Fin si
+		llamar nueva_linea
+		Escriba "Ingrese un numero real"
+		lea numero2
+		numero2<-numero2*5
+		Escriba "La multiplicacion del numero que ingreso es: ",numero2
+		llamar nueva_linea
+		llamar nueva_linea
+		Escriba "El numero entero que usted digito es: ",numero2
+		llamar nueva_linea
+		Escriba "La cadena de caracteres que usted digito son: ",c
+		llamar nueva_linea
+		Escriba "El caracter que usted digito es: ",i
+		llamar nueva_linea 
+		Escriba "El numero real que usted digito es: ",numero2
+fin

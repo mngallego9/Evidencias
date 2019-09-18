@@ -1,0 +1,8 @@
+entero n
+caracter x
+inicio
+	llamar color_texto(11)
+	n<-92
+	x<-car(n)
+	Escriba "El caracter ascii de ",n, " es: ",x
+fin

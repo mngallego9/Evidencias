@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+27
+'Ingresando a sala de cine'
+4
+1
+29
+'Por favor muestre su cédula'
+4
+1
+30
+'Ingrese la edad de la cedula'
+5
+1
+6
+cedula
+7
+0
+1
+9
+cedula>17
+7
+0
+1
+9
+cedula>11
+4
+1
+22
+'Ingrese a cine niños'
+13
+4
+1
+29
+'Ingrese a cine adolescentes'
+13
+13
+4
+1
+23
+'Ingrese a cine adulto'
+13
+1

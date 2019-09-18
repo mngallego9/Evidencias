@@ -1,0 +1,8 @@
+Entero i,p
+Inicio 
+	Para i<-1 hasta 15 haga 
+		i<-i+1
+		llamar nueva_linea
+		Escriba i
+	Fin para
+fin

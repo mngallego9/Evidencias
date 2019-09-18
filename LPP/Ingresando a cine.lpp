@@ -1,0 +1,12 @@
+Real Cedula
+inicio
+Escriba "Ingresando a cine"
+llamar nueva_linea
+Escriba "Presente su cedula: "
+lea Cedula
+	si (Cedula>17) entonces
+		Escriba "Ingrese a cine adulto"
+	sino
+		Escriba "Ingrese a cine menores"
+	fin si
+fin

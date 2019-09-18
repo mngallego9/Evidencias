@@ -1,0 +1,8 @@
+entero n
+cadena[28] x
+inicio
+	llamar color_texto(12)
+	x<-"Monica Natalia Gallego Gomez"
+	n<-longitud(x)
+	Escriba "La longitud (caracteres) de ",x, " es: ",n
+fin

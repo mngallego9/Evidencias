@@ -1,0 +1,9 @@
+Entero contador 
+Inicio
+	contador<-0
+	mientras(contador<10) haga
+		contador<-contador+1
+		Escriba contador
+		llamar nueva_linea
+	fin mientras
+fin

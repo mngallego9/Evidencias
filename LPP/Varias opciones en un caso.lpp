@@ -1,0 +1,35 @@
+Entero numero,numero1,numero2,suma
+Inicio
+	Escriba "Ingrese opcion"
+	llamar nueva_linea
+	lea numero
+	caso numero
+	1: 
+		Escriba "uno"
+	2: 
+		Escriba "Ingrese un numero menor a 5"
+		llamar nueva_linea
+		lea numero
+		Si (numero<5) entonces
+			Escriba "Numero correcto"
+		sino
+			Escriba "Numero erroneo"
+		fin si
+	3: 
+		Escriba "Tres"
+		llamar nueva_linea
+		Escriba "Digite dos numeros"
+		llamar nueva_linea
+		Escriba "Digite primer numero: "
+		lea numero1
+		Escriba "Digite segundo numero: "
+		lea numero2
+		suma<-numero1+numero2
+		llamar nueva_linea
+		Escriba "La suma de ",numero1, " mas ",numero2, " es: ",suma
+	4: 
+		Escriba "Cuatro"
+		sino:
+		Escriba "No soy nada"
+	fin caso
+fin

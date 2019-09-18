@@ -1,0 +1,13 @@
+Entero n
+Real r
+Inicio
+	llamar color_texto(11)
+	llamar Inicializar_Aleatorio()
+	Repita 
+		r<-aleatorio()*10
+		n<-r
+		Escriba "El numero generado es: ",r
+		llamar nueva_linea
+	Hasta n=0
+fin
+	

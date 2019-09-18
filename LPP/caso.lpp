@@ -1,0 +1,18 @@
+Entero numero
+Inicio
+Escriba "Ingrese opcion"
+llamar nueva_linea
+lea numero
+caso numero
+	1: 	
+		Escriba "Uno"
+	2:
+		Escriba "Dos"
+	3: 
+		Escriba "Tres"
+	4: 
+		Escriba "Cuatro"
+		sino:
+		Escriba "No soy nada"
+fin caso
+fin

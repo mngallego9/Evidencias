@@ -1,0 +1,48 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+18
+'Digite un numero'
+5
+1
+8
+caracter
+7
+0
+1
+33
+(caracter>=65) and (caracter<=90)
+7
+0
+1
+34
+(caracter>=97) and (caracter<=122)
+7
+0
+1
+33
+(caracter>=48) and (caracter<=57)
+13
+4
+1
+22
+'Caracter desconocido'
+13
+13
+4
+1
+23
+'La letra es minuscula'
+13
+13
+4
+1
+23
+'La letra es mayuscula'
+13
+1

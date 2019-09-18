@@ -1,0 +1,19 @@
+Entero car
+Inicio
+	Escriba "Digite un numero"
+	lea car
+	
+	Si(car>=65) y (car<=90) entonces
+		Escriba "La letra es mayuscula"
+	sino 
+		Si (car>=97) y (car<=122) entonces
+			Escriba "La letra es minuscula"
+		sino
+			Si (car>=48) y (car<=57) entonces
+				Escriba "El caracter digitado es un numero"
+			sino
+				Escriba "Caracter desconocido"
+			fin si
+		fin si
+	fin si
+fin

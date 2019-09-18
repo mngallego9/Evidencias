@@ -1,0 +1,12 @@
+Entero numero,suma
+inicio
+suma<-0
+numero<-2
+	mientras(numero<=10) haga
+		Escriba numero
+		llamar nueva_linea
+		suma<-suma+numero
+		numero<-numero+2
+	fin mientras
+escriba suma
+fin

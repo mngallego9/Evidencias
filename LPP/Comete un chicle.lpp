@@ -1,0 +1,11 @@
+Entero numero
+Inicio
+Escriba "Ingrese un numero: "
+lea numero
+	mientras(numero<>5) haga
+		Escriba "Usted no digito 5"
+		lea numero
+		Escriba "No comas chicle"
+	fin mientras
+Escriba "Comete un chicle"
+fin

@@ -1,0 +1,14 @@
+caracter respuesta
+entero nota
+inicio
+llamar color_texto(11)
+	Repita 
+		Escriba "Ingrese nota"
+		lea nota
+			Repita 
+				Escriba "Desea continuar? Si/no"
+				lea respuesta
+			Hasta (respuesta= 's') o (respuesta= 'n')
+		Hasta (respuesta='n')
+			Escriba "Que nota!"
+fin
